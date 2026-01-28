@@ -1,5 +1,26 @@
 - name: Bridges
   software:
+    - name: Biboumi
+      # ref: TODO
+      link: https://biboumi.codeberg.page/
+      support:
+        stable:
+          batch:
+          cap-3.1:
+          cap-3.2:
+          echo-message:
+          labeled-response:
+          message-tags:
+          multiline:
+          multi-prefix:
+          sasl-3.1:
+          react-client-tag:
+          reply-client-tag:
+        SASL:
+            - plain
+      na:
+        stable:
+          webirc:
     - name: BitlBee
       # ref: https://github.com/bitlbee/bitlbee/blob/3.6/irc_cap.c#L39
       link: https://bitlbee.org/
